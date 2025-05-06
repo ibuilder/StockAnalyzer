@@ -1,0 +1,129 @@
+/**
+ * AlphaVantage Stock Analyzer - Custom Styles
+ */
+
+/* Basic styling */
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+/* Card styling */
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+}
+
+/* Table styling */
+.table th {
+    font-weight: 600;
+    color: #495057;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Navigation */
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Form controls */
+.form-control, .form-select {
+    border-radius: 0.375rem;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 0.375rem;
+}
+
+/* Badge styling */
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+}
+
+/* Custom utility classes */
+.text-small {
+    font-size: 0.875rem;
+}
+
+.bg-light-blue {
+    background-color: #e3f2fd;
+}
+
+.bg-light-green {
+    background-color: #e8f5e9;
+}
+
+/* Progress bar styling */
+.progress {
+    height: 1.5rem;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    font-weight: 600;
+    transition: width 0.6s ease;
+}
+
+/* Modal styling */
+.modal-content {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.modal-header {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* Stock details styling */
+.stock-details-btn {
+    white-space: nowrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .table-responsive {
+        max-height: 400px;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+/* Animation for loading state */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in;
+}

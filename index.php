@@ -93,7 +93,7 @@ if ($isAjax) {
     <!-- Font Awesome for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="styles.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -187,6 +187,12 @@ if ($isAjax) {
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div class="text-center mt-3">
+                                <button id="applyFiltersBtn" class="btn btn-primary">
+                                    <i class="fas fa-filter me-2"></i>Apply Filters
+                                </button>
+                            </div>
                         </div>
 
                         <div id="stockTableContainer">
@@ -259,6 +265,6 @@ if ($isAjax) {
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="scripts.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

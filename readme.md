@@ -69,9 +69,10 @@ alphavantage-stock-analyzer/
 
 1. Access the application through your web browser
 2. Use the filters to select specific market sectors and price ranges
-3. Sort stocks by asset-to-debt ratio, total assets, or total debt
-4. Click on the "Details" button to view more information about a stock
-5. Click the "Refresh Data" button to update the stock data (uses API calls)
+3. Click the "Apply Filters" button to update the results based on your selections
+4. Sort stocks by asset-to-debt ratio, total assets, or total debt
+5. Click on the "Details" button to view more information about a stock
+6. Click the "Refresh Data" button in the top navigation to fetch fresh data from the API
 
 ## API Rate Limiting
 
